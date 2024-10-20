@@ -11,7 +11,7 @@ public class service {
 
     public static void Question2() {
         int result = VersionUpdateOrNot("1.2.0","1.0.0");
-        System.out.println(result);
+        System.out.println("VersionUpdateOrNot " + result);
     }
 
     public static int VersionUpdateOrNot(String version1, String version2) {
